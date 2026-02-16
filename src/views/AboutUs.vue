@@ -38,7 +38,7 @@
         <div class="team-grid">
           <div v-for="i in 3" :key="i" class="glass-card team-card">
             <div class="team-img-placeholder">
-              <img :src="`/public/images/person${i}.webp`" alt="">
+              <img :src="`/images/person${i}.webp`" alt="">
             </div>
             <h3>عضو الفريق {{ i }}</h3>
             <p>{{ teamMembers[i - 1].position }}</p>
@@ -152,15 +152,15 @@ export default {
       teamMembers: [
         {
           position: "مستشار تأشيرات وسفر",
-          image: "/public/images/person1.webp",
+          image: "/images/person1.webp",
         },
         {
           position: "مستشار حجوزات",
-          image: "/public/images/person2.webp",
+          image: "/images/person2.webp",
         },
         {
           position: "مستشار تجربة العملاء",
-          image: "/public/images/person3.webp",
+          image: "/images/person3.webp",
         },
       ],
     };

@@ -49,7 +49,7 @@
       <div class="tours-grid">
         <div v-for="i in 3" :key="i" class="glass-card tour-card">
           <div class="tour-img-wrapper">
-             <img :src="`/public/images/pic${i}.webp`" alt="Tour" class="tour-img">
+             <img :src="`/images/pic${i}.webp`" alt="Tour" class="tour-img">
              <div class="tour-badge">الأعلى تقييماً</div>
           </div>
           <div class="tour-info">

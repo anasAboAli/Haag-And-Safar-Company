@@ -4,8 +4,8 @@
       <div class="about-grid">
         <div class="about-visual">
           <div class="image-stack">
-            <img src="/public/images/img1About.webp" alt="Travel" class="img-1">
-            <img src="/public/images/img2About.webp" alt="Adventure" class="img-2 glass-card">
+            <img src="/images/img1About.webp" alt="Travel" class="img-1">
+            <img src="/images/img2About.webp" alt="Adventure" class="img-2 glass-card">
           </div>
         </div>
         

@@ -43,12 +43,12 @@ const categories = ['الكل', 'شواطئ', 'جبال', 'مدن', 'حج وعم
 const currentCat = ref('الكل');
 
 const tours = ref([
-  { id: 1, title: 'جنة المالديف', duration: '5 أيام', location: 'المالديف', price: 1299, image: '/public/images/tourImg1.webp', type: 'فاخرة', category: 'شواطئ' },
-  { id: 2, title: 'هروب لجبال الألب', duration: '7 أيام', location: 'سويسرا', price: 2499, image: '/public/images/tourImg2.webp', type: 'مغامرة', category: 'جبال' },
-  { id: 3, title: 'برنامج العمرة المميز', duration: '10 أيام', location: 'مكة والمكرمة', price: 1500, image: '/public/images/tourImg3.webp', type: 'ديني', category: 'حج وعمرة' },
-  { id: 4, title: 'أضواء طوكيو', duration: '6 أيام', location: 'اليابان', price: 1899, image: '/public/images/tourImg4.webp', type: 'مدن', category: 'مدن' },
-  { id: 5, title: 'سحر بورا بورا', duration: '5 أيام', location: 'بولينيزيا الفرنسية', price: 3200, image: '/public/images/tourImg5.webp', type: 'شهر عسل', category: 'شواطئ' },
-  { id: 6, title: 'غروب سانتوريني', duration: '4 أيام', location: 'اليونان', price: 1599, image: '/public/images/tourImg6.webp', type: 'رائج', category: 'شواطئ' },
+  { id: 1, title: 'جنة المالديف', duration: '5 أيام', location: 'المالديف', price: 1299, image: '/images/tourImg1.webp', type: 'فاخرة', category: 'شواطئ' },
+  { id: 2, title: 'هروب لجبال الألب', duration: '7 أيام', location: 'سويسرا', price: 2499, image: '/images/tourImg2.webp', type: 'مغامرة', category: 'جبال' },
+  { id: 3, title: 'برنامج العمرة المميز', duration: '10 أيام', location: 'مكة والمكرمة', price: 1500, image: '/images/tourImg3.webp', type: 'ديني', category: 'حج وعمرة' },
+  { id: 4, title: 'أضواء طوكيو', duration: '6 أيام', location: 'اليابان', price: 1899, image: '/images/tourImg4.webp', type: 'مدن', category: 'مدن' },
+  { id: 5, title: 'سحر بورا بورا', duration: '5 أيام', location: 'بولينيزيا الفرنسية', price: 3200, image: '/images/tourImg5.webp', type: 'شهر عسل', category: 'شواطئ' },
+  { id: 6, title: 'غروب سانتوريني', duration: '4 أيام', location: 'اليونان', price: 1599, image: '/images/tourImg6.webp', type: 'رائج', category: 'شواطئ' },
 ]);
 
 const filteredTours = computed(() => {
